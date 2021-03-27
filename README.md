@@ -1,6 +1,6 @@
 # TrackAttacker V1.0 #
 
-**TrackAttacker** 是一个批量通过IP追踪攻击者指纹工具
+**TrackAttacker** 是一个通过IP追踪攻击者指纹工具，支持批量IP
 
 TrackAttacker目前版本为1.0，已满足功能如下
 ```
