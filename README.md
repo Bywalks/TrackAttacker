@@ -22,7 +22,7 @@ python3 -m pip install -r requirements.txt
 
 ### 开始使用 ###
 
-urls.txt放入需扫描ip
+urls.txt放入需扫描ip\n
 加all参数=加端口扫描
 
 ```
