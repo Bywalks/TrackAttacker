@@ -1,15 +1,16 @@
 # TrackAttacker V1.0 #
 
-**TrackAttacker** 是一个通过IP追踪攻击者指纹工具，支持批量IP
+**TrackAttacker** 是一个通过IP追踪攻击者指纹工具
 
 TrackAttacker目前版本为1.0，已满足功能如下
 ```
-1：IP查域名
-2：IP查地址
-3：IP查端口
-4：IP查主机名
-5：域名查备案
-6：域名查Whois
+1：IP批量
+2：IP查域名
+3：IP查地址
+4：IP查端口
+5：IP查主机名
+6：域名查备案
+7：域名查Whois
 ```
 
 ------
