@@ -19,6 +19,8 @@ python3 -m pip install -r requirements.txt
 
 ### 开始使用 ###
 
+**加all参数=加端口扫描** 
+
 ```
 python3 TrackAttack.py3
 python3 TrackAttack.py3 all
