@@ -19,9 +19,20 @@ python3 -m pip install -r requirements.txt
 
 ### 开始使用 ###
 
-**加all参数=加端口扫描** 
+加all参数=加端口扫描
 
 ```
 python3 TrackAttack.py3
 python3 TrackAttack.py3 all
 ```
+
+### 小问题 ###
+
+域名查备案用的备案8的接口，该接口需在脚本里手动配置个cookie,
+so,如果想用该接口，访问 https://www.beian88.com/ 抓取cookie:eid=b2d7c4b290e086176cdb0ccfbfc162ba，
+放入脚本中的header头，才可调用域名查备案接口
+Why一定通过备案8来域名查备案呢，经过测试，目前发现备案8的接口数据库最广泛，考虑到精准性，最终使用了备案8的接口
+
+### 常规扫描结果 ###
+
+域名
