@@ -28,8 +28,8 @@ urls.txt放入需扫描ip
 加all参数=加端口扫描
 
 ```
-python3 TrackAttack.py3
-python3 TrackAttack.py3 all
+python3 TrackAttacker.py3
+python3 TrackAttacker.py3 all
 ```
 
 ### 小问题 ###
