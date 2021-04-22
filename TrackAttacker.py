@@ -108,7 +108,7 @@ def get_whois_by_site(site):
 def nmap_port(ip):
     n = nmap.PortScanner() 
     ip = "\""+ip+"\""
-    n.scan(hosts=ip,arguments="-sV -p 22,80,90,443,1433,1521,3306,3389,6379,7001,7002,8000,8080,9090,9043,9080,9300")
+    n.scan(hosts=ip,arguments="-sV -p 22,80,90,443,1433,1521,3306,3389,6379,7001,7002,8000,8080,9090,9043,9080,9300,50050")
     for x in n.all_hosts():
         if n[x].hostname() != "":
             print("[+]HostName: " + n[x].hostname())
